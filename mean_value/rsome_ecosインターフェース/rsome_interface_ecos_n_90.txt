@@ -1,0 +1,33 @@
+(multi_optimization) yamauchitakuya@yamauchitakuyanoMacBook-Pro measurement % python3 mean_value_rsome_inter_ecos.py
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Being solved by ECOS...
+
+ECOS 2.0.10 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS
+
+It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT
+ 0  -2.164e+00  -2.164e+00  +1e+02  7e-01  1e+00  1e+00  1e+00    ---    ---    1  1  - |  -  - 
+ 1  -2.594e+00  -2.535e+00  +3e+01  1e-01  2e-01  2e-01  3e-01  0.7760  8e-02   1  1  1 |  0  0
+ 2  -2.224e+00  -2.226e+00  +1e+01  8e-03  1e-02  2e-02  2e-01  0.6126  3e-01   1  1  1 |  0  0
+ 3  -3.103e+00  -2.859e+00  +2e+01  9e-01  2e-01  6e-01  2e-01  0.0836  9e-01   2  2  2 |  0  0
+ 4  -2.345e+00  -2.464e+00  +1e+01  2e-01  7e-02  3e-03  1e-01  0.3474  4e-01   1  1  2 |  0  0
+ 5  -2.138e+00  -2.151e+00  +3e+00  3e-02  7e-03  6e-03  4e-02  0.8067  1e-01   1  1  2 |  0  0
+ 6  -1.892e+00  -1.894e+00  +1e+00  5e-02  4e-03  1e-02  1e-02  0.6760  5e-02   2  2  2 |  0  0
+ 7  -1.342e+00  -1.340e+00  +7e-01  7e-03  5e-04  5e-03  8e-03  0.9815  6e-01   2  2  2 |  0  0
+ 8  -1.213e+00  -1.213e+00  +1e-01  2e-03  1e-04  9e-04  2e-03  0.9356  1e-01   2  2  2 |  0  0
+ 9  -1.185e+00  -1.185e+00  +5e-02  7e-04  4e-05  2e-04  6e-04  0.9890  4e-01   3  3  3 |  0  0
+10  -1.174e+00  -1.174e+00  +8e-03  1e-04  6e-06  3e-05  9e-05  0.8579  1e-02   3  2  3 |  0  0
+11  -1.173e+00  -1.173e+00  +2e-03  3e-05  2e-06  8e-06  2e-05  0.8477  1e-01   2  2  2 |  0  0
+12  -1.173e+00  -1.173e+00  +7e-04  9e-06  6e-07  3e-06  8e-06  0.7941  2e-01   2  2  2 |  0  0
+13  -1.173e+00  -1.173e+00  +1e-04  2e-06  1e-07  5e-07  1e-06  0.8885  1e-01   2  2  1 |  0  0
+14  -1.173e+00  -1.173e+00  +2e-05  2e-07  2e-08  7e-08  2e-07  0.9012  4e-02   2  2  2 |  0  0
+15  -1.173e+00  -1.173e+00  +8e-07  1e-08  6e-10  3e-09  9e-09  0.9599  2e-03   2  1  1 |  0  0
+16  -1.173e+00  -1.173e+00  +3e-08  4e-10  3e-11  1e-10  4e-10  0.9582  2e-04   3  1  1 |  0  0
+17  -1.173e+00  -1.173e+00  +2e-09  5e-11  2e-12  8e-12  2e-11  0.9562  3e-02   2  1  1 |  0  0
+
+OPTIMAL (within feastol=5.1e-11, reltol=1.9e-09, abstol=2.3e-09).
+Runtime: 0.004598 seconds.
+
+Solution status: Optimal solution found
+Running time: 0.0046s
+Objective value: 1.1731
