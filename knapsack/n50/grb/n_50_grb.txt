@@ -1,6 +1,0 @@
-Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
-Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
-Restricted license - for non-production use only - expires 2025-11-24
-Robust optimization=[0.3036, 0.3036, 0.3036, 0.28365, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1592, 0.1592, 0.14695, 0.134, 0.134, 0.134, 0.1216, 0.11305, 0.11485, 0.10095, 0.10095, 0.053, 0.0821, 0.053, 0.07625, 0.0592, 0.04625, 0.04625, 0.053, 0.04625, 0.01655, 0.01655, 0.02825, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655]
-Robustness optimization=[0.28365, 0.28365, 0.28365, 0.28365, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.1878, 0.134, 0.134, 0.134, 0.134, 0.134, 0.134, 0.10095, 0.10095, 0.10095, 0.10095, 0.10095, 0.04625, 0.04625, 0.04625, 0.04625, 0.04625, 0.04625, 0.04625, 0.04625, 0.04625, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655, 0.01655]
-Processing time: 1.7809 seconds
