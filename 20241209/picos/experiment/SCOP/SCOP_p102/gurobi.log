@@ -1,0 +1,57 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+===================================
+            PICOS 2.5.1            
+===================================
+Problem type: Optimization Problem.
+Searching a solution strategy for Gurobi.
+Solution strategy:
+  1. ExtraOptions
+  2. SquaredNormToConicReformulation
+  3. GurobiSolver
+Skipping ExtraOptions.
+Applying SquaredNormToConicReformulation.
+Building a Gurobi problem instance.
+Restricted license - for non-production use only - expires 2025-11-24
+Starting solution search.
+Set parameter FeasibilityTol to value 1e-08
+Set parameter OptimalityTol to value 1e-08
+Set parameter BarQCPConvTol to value 1e-10
+Set parameter MIPGapAbs to value 1e-06
+Set parameter QCPDual to value 1
+-----------------------------------
+         Gurobi Optimizer          
+-----------------------------------
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[rosetta2] - Darwin 22.2.0 22C65)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 3 rows, 5 columns and 5 nonzeros
+Model fingerprint: 0xf554cf4e
+Model has 1 quadratic constraint
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [1e+00, 1e+00]
+Presolve removed 3 rows and 5 columns
+Presolve time: 0.03s
+Presolve: All rows and columns removed
+
+Barrier solved model in 0 iterations and 0.03 seconds (0.00 work units)
+Optimal objective 0.00000000e+00
+Solving KKT system to obtain QCP duals...
+
+------------[ Gurobi ]-------------
+Solver claims optimal solution for feasible problem.
+Applying the solution.
+Applied solution is primal feasible.
+Search 6.9e-02s, solve 3.9e-01s, overhead 456%.
+=============[ PICOS ]=============
+Processing time: 0.3861 seconds
+status: optimal
+optional value: 0.0
+optional solution
+s: 0.0 t: 0.0

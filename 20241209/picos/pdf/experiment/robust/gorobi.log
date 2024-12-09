@@ -1,0 +1,81 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+===================================
+            PICOS 2.5.1            
+===================================
+Problem type: Second Order Cone Program.
+Searching a solution strategy for Gurobi.
+Solution strategy:
+  1. ExtraOptions
+  2. GurobiSolver
+Skipping ExtraOptions.
+Building a Gurobi problem instance.
+Restricted license - for non-production use only - expires 2025-11-24
+Starting solution search.
+Set parameter FeasibilityTol to value 1e-08
+Set parameter OptimalityTol to value 1e-08
+Set parameter BarQCPConvTol to value 1e-10
+Set parameter MIPGapAbs to value 1e-06
+Set parameter QCPDual to value 1
+-----------------------------------
+         Gurobi Optimizer          
+-----------------------------------
+Gurobi Optimizer version 11.0.3 build v11.0.3rc0 (mac64[rosetta2] - Darwin 22.2.0 22C65)
+
+CPU model: Apple M2
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 19 rows, 19 columns and 39 nonzeros
+Model fingerprint: 0xfdc58ea9
+Model has 4 quadratic constraints
+Coefficient statistics:
+  Matrix range     [5e-01, 5e+00]
+  QMatrix range    [1e+00, 1e+00]
+  Objective range  [3e+00, 9e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [3e+00, 7e+00]
+Presolve removed 3 rows and 0 columns
+Presolve time: 0.02s
+Presolved: 16 rows, 19 columns, 36 nonzeros
+Presolved model has 4 second-order cone constraints
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 7.200e+01
+ Factor NZ  : 1.360e+02
+ Factor Ops : 1.496e+03 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   5.07003080e+01  1.20735526e+01  8.52e+00 3.38e+00  4.97e+00     0s
+   1   1.84365706e+00  8.78871622e+00  8.42e-01 1.59e+00  1.25e+00     0s
+   2   1.42023915e+00 -1.96067993e+00  1.67e-01 1.75e-06  2.65e-01     0s
+   3   2.48083008e+00  1.76215086e+00  1.84e-07 1.94e-08  3.78e-02     0s
+   4   2.06294375e+00  2.04960613e+00  3.44e-09 8.86e-12  7.02e-04     0s
+   5   2.06021992e+00  2.05977182e+00  3.22e-10 8.51e-15  2.36e-05     0s
+   6   2.06003850e+00  2.06003004e+00  2.50e-11 1.05e-13  4.45e-07     0s
+   7   2.06003269e+00  2.06003231e+00  3.23e-10 2.55e-12  1.98e-08     0s
+   8   2.06003265e+00  2.06003236e+00  6.19e-10 4.14e-12  1.52e-08     0s
+   9   2.06003238e+00  2.06003236e+00  1.95e-10 1.03e-13  9.29e-10     0s
+  10   2.06003237e+00  2.06003237e+00  6.13e-12 4.41e-13  3.33e-11     0s
+  11   2.06003237e+00  2.06003237e+00  7.50e-11 2.23e-10  1.33e-12     0s
+
+Barrier solved model in 11 iterations and 0.04 seconds (0.00 work units)
+Optimal objective 2.06003237e+00
+
+Solving KKT system to obtain QCP duals...
+
+------------[ Gurobi ]-------------
+Solver claims optimal solution for feasible problem.
+Applying the solution.
+Applied solution is primal feasible.
+Search 5.1e-02s, solve 2.6e-01s, overhead 401%.
+=============[ PICOS ]=============
+Processing time: 0.2579 seconds
+status: optimal
+objective value: 2.0600323664711326
+{<3×1 Real Variable: x>: <3x1 matrix, tc='d'>}
+x[0] = 0.27
+x[1] = 0.0
+x[2] = 1.05

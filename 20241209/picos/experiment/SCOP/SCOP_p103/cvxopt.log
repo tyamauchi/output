@@ -1,0 +1,39 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+===================================
+            PICOS 2.5.1            
+===================================
+Problem type: Second Order Cone Program.
+Searching a solution strategy for CVXOPT.
+Solution strategy:
+  1. ExtraOptions
+  2. CVXOPTSolver
+Skipping ExtraOptions.
+Building a CVXOPT problem instance.
+Starting solution search.
+-----------------------------------
+ Python Convex Optimization Solver 
+    via internal CONELP solver     
+-----------------------------------
+     pcost       dcost       gap    pres   dres   k/t
+ 0:  2.2204e-16  4.4409e-16  2e+00  1e+00  1e+00  1e+00
+ 1:  2.4073e-02  3.3551e-02  5e-02  4e-02  4e-02  5e-02
+ 2:  2.4818e-04  3.4350e-04  5e-04  4e-04  4e-04  5e-04
+ 3:  2.4813e-06  3.4344e-06  5e-06  4e-06  4e-06  5e-06
+ 4:  2.4813e-08  3.4344e-08  5e-08  4e-08  4e-08  5e-08
+ 5:  2.4813e-10  3.4344e-10  5e-10  4e-10  4e-10  5e-10
+Optimal solution found.
+------------[ CVXOPT ]-------------
+Solver claims optimal solution for feasible problem.
+Applying the solution.
+Applied solution is primal feasible.
+Search 2.3e-03s, solve 3.9e-03s, overhead 74%.
+=============[ PICOS ]=============
+Processing time: 0.0041 seconds
+status: optimal
+optional value: -2.481330351251423e-10
+optional solution
+y:
+[ 2.48e-10]
+[-5.83e-18]
+

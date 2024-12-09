@@ -1,0 +1,52 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+===================================
+            PICOS 2.5.1            
+===================================
+Problem type: Second Order Cone Program.
+Searching a solution strategy for ECOS via ecos-python.
+Solution strategy:
+  1. ExtraOptions
+  2. ECOSSolver
+Skipping ExtraOptions.
+Building a ECOS problem instance.
+Starting solution search.
+-----------------------------------
+       Embedded Conic Solver       
+          via ecos-python          
+-----------------------------------
+-------------[ ECOS ]--------------
+Solver claims optimal solution for feasible problem.
+Applying the solution.
+Applied solution is primal feasible.
+Search 1.5e-02s, solve 1.2e-01s, overhead 738%.
+=============[ PICOS ]=============
+Processing time: 0.1245 seconds
+status: optimal
+objective value: 2.0600323581021787
+{<3×1 Real Variable: x>: [0.274622035896376, -1.35903554306419e-10, 1.0528401676369383]}
+
+ECOS 2.0.10 - (C) embotech GmbH, Zurich Switzerland, 2012-15. Web: www.embotech.com/ECOS
+
+It     pcost       dcost      gap   pres   dres    k/t    mu     step   sigma     IR    |   BT
+ 0  +6.358e+00  -5.685e+00  +7e+01  5e-01  4e-01  1e+00  9e+00    ---    ---    1  1  - |  -  - 
+ 1  -1.321e+00  -4.725e+00  +2e+01  2e-01  1e-01  5e-01  2e+00  0.7360  3e-02   1  1  1 |  0  0
+ 2  -7.532e-01  -1.856e+00  +8e+00  8e-02  4e-02  4e-01  1e+00  0.6850  1e-01   2  2  2 |  0  0
+ 3  +1.766e-01  -4.778e-01  +5e+00  7e-02  3e-02  5e-01  6e-01  0.5775  3e-01   2  2  2 |  0  0
+ 4  +1.672e+00  +1.580e+00  +7e-01  1e-02  4e-03  9e-02  9e-02  0.8593  9e-03   2  2  2 |  0  0
+ 5  +1.986e+00  +1.972e+00  +1e-01  2e-03  6e-04  1e-02  1e-02  0.8543  5e-03   2  2  2 |  0  0
+ 6  +2.010e+00  +2.003e+00  +6e-02  1e-03  4e-04  1e-02  9e-03  0.5199  3e-01   2  2  2 |  0  0
+ 7  +2.052e+00  +2.051e+00  +9e-03  2e-04  6e-05  1e-03  1e-03  0.8664  5e-03   2  2  2 |  0  0
+ 8  +2.058e+00  +2.058e+00  +3e-03  4e-05  2e-05  5e-04  4e-04  0.7960  1e-01   2  2  2 |  0  0
+ 9  +2.059e+00  +2.059e+00  +6e-04  1e-05  4e-06  1e-04  9e-05  0.7814  3e-02   2  1  1 |  0  0
+10  +2.060e+00  +2.060e+00  +3e-04  4e-06  2e-06  5e-05  4e-05  0.7179  2e-01   2  2  2 |  0  0
+11  +2.060e+00  +2.060e+00  +7e-05  1e-06  4e-07  1e-05  9e-06  0.7816  5e-02   3  1  1 |  0  0
+12  +2.060e+00  +2.060e+00  +1e-05  2e-07  8e-08  3e-06  2e-06  0.8918  9e-02   2  2  2 |  0  0
+13  +2.060e+00  +2.060e+00  +3e-06  5e-08  2e-08  6e-07  4e-07  0.8093  4e-02   3  1  1 |  0  0
+14  +2.060e+00  +2.060e+00  +4e-07  7e-09  3e-09  9e-08  5e-08  0.9333  8e-02   2  1  2 |  0  0
+15  +2.060e+00  +2.060e+00  +7e-08  1e-09  5e-10  2e-08  1e-08  0.8342  2e-02   2  1  1 |  0  0
+16  +2.060e+00  +2.060e+00  +9e-09  2e-10  6e-11  2e-09  1e-09  0.9414  8e-02   3  1  1 |  0  0
+
+OPTIMAL (within feastol=1.6e-10, reltol=4.5e-09, abstol=9.3e-09).
+Runtime: 0.000402 seconds.
+

@@ -1,0 +1,39 @@
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+Intel MKL WARNING: Support of Intel(R) Streaming SIMD Extensions 4.2 (Intel(R) SSE4.2) enabled only processors has been deprecated. Intel oneAPI Math Kernel Library 2025.0 will require Intel(R) Advanced Vector Extensions (Intel(R) AVX) instructions.
+===================================
+            PICOS 2.5.1            
+===================================
+Problem type: Second Order Cone Program.
+Searching a solution strategy for CVXOPT.
+Solution strategy:
+  1. ExtraOptions
+  2. CVXOPTSolver
+Skipping ExtraOptions.
+Building a CVXOPT problem instance.
+Starting solution search.
+-----------------------------------
+ Python Convex Optimization Solver 
+    via internal CONELP solver     
+-----------------------------------
+     pcost       dcost       gap    pres   dres   k/t
+ 0:  1.1396e+01 -7.5579e+01  9e+00  7e-17  6e+00  1e+00
+ 1:  8.6231e+00 -2.8917e+01  5e+00  1e-16  2e+00  9e-01
+ 2:  2.8325e+00 -2.0926e+01  6e+00  6e-16  2e+00  1e+00
+ 3: -1.2492e+00 -3.9367e+01  3e+01  9e-16  3e+00  3e+00
+ 4: -8.1841e+00 -2.2071e+01  1e+01  6e-16  1e+00  2e+00
+ 5: -1.3383e+01 -1.4266e+01  8e-01  2e-16  6e-02  6e-02
+ 6: -1.3470e+01 -1.3488e+01  2e-02  1e-15  1e-03  1e-03
+ 7: -1.3472e+01 -1.3473e+01  4e-04  8e-15  3e-05  2e-05
+ 8: -1.3472e+01 -1.3472e+01  8e-06  6e-13  5e-07  5e-07
+ 9: -1.3472e+01 -1.3472e+01  1e-07  6e-12  8e-09  7e-09
+Optimal solution found.
+------------[ CVXOPT ]-------------
+Solver claims optimal solution for feasible problem.
+Applying the solution.
+Applied solution is primal feasible.
+Search 2.6e-03s, solve 4.4e-03s, overhead 68%.
+=============[ PICOS ]=============
+Processing time: 0.0045 seconds
+終了状態: optimal
+目的関数値: -13.47
+最適解: {<3×1 Real Variable: x>: [5.247680246069007, -2.2453757938822294, -4.743040743312225]}
