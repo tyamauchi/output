@@ -1,0 +1,257 @@
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/06ad16b1e30a4aae93d2d6c81a8e85c9-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/06ad16b1e30a4aae93d2d6c81a8e85c9-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 8 COLUMNS
+At line 27 RHS
+At line 31 BOUNDS
+At line 32 ENDATA
+Problem MODEL has 3 rows, 6 columns and 17 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (0) rows, 6 (0) columns and 17 (0) elements
+0  Obj 0 Primal inf 0.7499999 (1)
+4  Obj 1
+Optimal - objective value 1
+Optimal objective 1 - 4 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/1a985086f58f452ab9de92725d3978d9-pulp.mps max revised ratio 1e-10 timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/1a985086f58f452ab9de92725d3978d9-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 36 RHS
+At line 41 BOUNDS
+At line 42 ENDATA
+Problem MODEL has 4 rows, 8 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+No match for revised - ? for list of commands
+ratioGap was changed from 0 to 1e-10
+Option for timeMode changed from cpu to elapsed
+Presolve 4 (0) rows, 8 (0) columns and 23 (0) elements
+Perturbing problem by 0.001% of 400 - largest nonzero change 3.5068446e-05 ( 1.1966009e-05%) - largest zero change 3.4757858e-05
+0  Obj -0 Primal inf 2.9880948 (4) Dual inf 679.99994 (3)
+0  Obj -0 Primal inf 2.9880948 (4) Dual inf 1.6954762e+11 (7)
+5  Obj -0
+Optimal - objective value 0
+Optimal objective 0 - 5 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/b8fa7d12fa414c03a48a8e161d12cadd-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/b8fa7d12fa414c03a48a8e161d12cadd-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 8 COLUMNS
+At line 27 RHS
+At line 31 BOUNDS
+At line 32 ENDATA
+Problem MODEL has 3 rows, 6 columns and 17 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (0) rows, 6 (0) columns and 17 (0) elements
+0  Obj 0 Primal inf 0.6249999 (1)
+5  Obj 1
+Optimal - objective value 1
+Optimal objective 1 - 5 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/7fb01efcc8a94a62ae6f264a5634a494-pulp.mps max revised ratio 1e-10 timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/7fb01efcc8a94a62ae6f264a5634a494-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 36 RHS
+At line 41 BOUNDS
+At line 42 ENDATA
+Problem MODEL has 4 rows, 8 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+No match for revised - ? for list of commands
+ratioGap was changed from 0 to 1e-10
+Option for timeMode changed from cpu to elapsed
+Presolve 4 (0) rows, 8 (0) columns and 23 (0) elements
+Perturbing problem by 0.001% of 400 - largest nonzero change 3.5068446e-05 ( 1.1966009e-05%) - largest zero change 3.4757858e-05
+0  Obj -0 Primal inf 3.005952 (4) Dual inf 679.99994 (3)
+0  Obj -0 Primal inf 3.005952 (4) Dual inf 1.6954762e+11 (7)
+8  Obj 3.866707e-10
+Optimal - objective value 3.866707e-10
+Optimal objective 3.866706955e-10 - 8 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/ce13c3ddb4ef498a91b1a731b524f116-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/ce13c3ddb4ef498a91b1a731b524f116-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 8 COLUMNS
+At line 27 RHS
+At line 31 BOUNDS
+At line 32 ENDATA
+Problem MODEL has 3 rows, 6 columns and 17 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (0) rows, 6 (0) columns and 17 (0) elements
+0  Obj 0 Primal inf 0.6749999 (1)
+4  Obj 1
+Optimal - objective value 1
+Optimal objective 1 - 4 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/9a78d37946d94eada08dd87873e03113-pulp.mps max revised ratio 1e-10 timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/9a78d37946d94eada08dd87873e03113-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 36 RHS
+At line 41 BOUNDS
+At line 42 ENDATA
+Problem MODEL has 4 rows, 8 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+No match for revised - ? for list of commands
+ratioGap was changed from 0 to 1e-10
+Option for timeMode changed from cpu to elapsed
+Presolve 4 (0) rows, 8 (0) columns and 23 (0) elements
+Perturbing problem by 0.001% of 400 - largest nonzero change 3.5068446e-05 ( 1.1966009e-05%) - largest zero change 3.4757858e-05
+0  Obj -0 Primal inf 2.6749996 (4) Dual inf 679.99994 (3)
+0  Obj -0 Primal inf 2.6749996 (4) Dual inf 1.6954762e+11 (7)
+6  Obj -2e-11
+Optimal - objective value 1.9978021e-11
+Optimal objective 1.997802089e-11 - 6 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/423322c8415547a9acb5f7b2a7dba1b7-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/423322c8415547a9acb5f7b2a7dba1b7-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 8 COLUMNS
+At line 27 RHS
+At line 31 BOUNDS
+At line 32 ENDATA
+Problem MODEL has 3 rows, 6 columns and 17 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (0) rows, 6 (0) columns and 17 (0) elements
+0  Obj 0 Primal inf 0.4999999 (1)
+5  Obj 0.80216802
+Optimal - objective value 0.80216802
+Optimal objective 0.8021680217 - 5 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/bfe785b85efe4b3b9f8a0b745a80f89d-pulp.mps max revised ratio 1e-10 timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/bfe785b85efe4b3b9f8a0b745a80f89d-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 36 RHS
+At line 41 BOUNDS
+At line 42 ENDATA
+Problem MODEL has 4 rows, 8 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+No match for revised - ? for list of commands
+ratioGap was changed from 0 to 1e-10
+Option for timeMode changed from cpu to elapsed
+Presolve 4 (0) rows, 8 (0) columns and 23 (0) elements
+Perturbing problem by 0.001% of 400 - largest nonzero change 3.5068446e-05 ( 1.1966009e-05%) - largest zero change 3.4757858e-05
+0  Obj -0 Primal inf 2.3594653 (4) Dual inf 679.99994 (3)
+0  Obj -0 Primal inf 2.3594653 (4) Dual inf 1.6954762e+11 (7)
+5  Obj 41.54472 Primal inf 0.16957019 (1)
+Primal infeasible - objective value 41.54472
+PrimalInfeasible objective 41.54472 - 5 iterations time 0.002
+
+Result - Linear relaxation infeasible
+
+Enumerated nodes:           0
+Total iterations:           0
+Time (CPU seconds):         0.00
+Time (Wallclock Seconds):   0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/96e5fbd2333b440ea2e761bf94dac1e5-pulp.mps timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/96e5fbd2333b440ea2e761bf94dac1e5-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 8 COLUMNS
+At line 27 RHS
+At line 31 BOUNDS
+At line 32 ENDATA
+Problem MODEL has 3 rows, 6 columns and 17 elements
+Coin0008I MODEL read with 0 errors
+Option for timeMode changed from cpu to elapsed
+Presolve 3 (0) rows, 6 (0) columns and 17 (0) elements
+0  Obj 0 Primal inf 0.9999999 (1)
+5  Obj 0.88888889
+Optimal - objective value 0.88888889
+Optimal objective 0.8888888889 - 5 iterations time 0.002
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+Welcome to the CBC MILP Solver 
+Version: 2.10.3 
+Build Date: Dec 15 2019 
+
+command line - /Users/yamauchitakuya/anaconda3/lib/python3.10/site-packages/pulp/solverdir/cbc/osx/64/cbc /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/2e2e1c5d91fb4636b6a5ccfff27b253e-pulp.mps max revised ratio 1e-10 timeMode elapsed branch printingOptions all solution /var/folders/ww/k54z6fn173d882zm18d9bvt00000gn/T/2e2e1c5d91fb4636b6a5ccfff27b253e-pulp.sol (default strategy 1)
+At line 2 NAME          MODEL
+At line 3 ROWS
+At line 9 COLUMNS
+At line 36 RHS
+At line 41 BOUNDS
+At line 42 ENDATA
+Problem MODEL has 4 rows, 8 columns and 23 elements
+Coin0008I MODEL read with 0 errors
+No match for revised - ? for list of commands
+ratioGap was changed from 0 to 1e-10
+Option for timeMode changed from cpu to elapsed
+Presolve 4 (0) rows, 8 (0) columns and 23 (0) elements
+Perturbing problem by 0.001% of 400 - largest nonzero change 3.5068446e-05 ( 1.1966009e-05%) - largest zero change 3.4757858e-05
+0  Obj -0 Primal inf 3.5238093 (4) Dual inf 679.99994 (3)
+0  Obj -0 Primal inf 3.5238093 (4) Dual inf 1.6954762e+11 (7)
+2  Obj -0 Primal inf 0.089549975 (2)
+Primal infeasible - objective value -0
+PrimalInfeasible objective -0 - 2 iterations time 0.002
+
+Result - Linear relaxation infeasible
+
+Enumerated nodes:           0
+Total iterations:           0
+Time (CPU seconds):         0.00
+Time (Wallclock Seconds):   0.00
+
+Option for printingOptions changed from normal to all
+Total time (CPU seconds):       0.00   (Wallclock seconds):       0.00
+
+[EnvelopResult(score=1.0, id=0, dmu=DMU(input=array([ 50, 110]), output=array([300]), id=0), weights=[1.0, 0.0, 0.0, 0.0, 0.0], x_slack=[0.0, 0.0], y_slack=[0.0]), EnvelopResult(score=1.0, id=1, dmu=DMU(input=array([70, 80]), output=array([250]), id=1), weights=[0.0, 1.0, 0.0, 0.0, 0.0], x_slack=[-1.4668045e-10, 0.0], y_slack=[5.3335114e-10]), EnvelopResult(score=1.0, id=2, dmu=DMU(input=array([ 30, 120]), output=array([270]), id=2), weights=[0.0, 0.0, 1.0, 0.0, 0.0], x_slack=[-2e-11, 1.0001999e-11], y_slack=[2.9976022e-11]), EnvelopResult(score=0.802168, id=3, dmu=DMU(input=array([45, 90]), output=array([200]), id=3), weights=[0.585366, 0.097561, 0.0, 0.0, 0.0], x_slack=[0.0, 0.0], y_slack=[41.54472]), EnvelopResult(score=0.888889, id=4, dmu=DMU(input=array([ 50, 210]), output=array([400]), id=4), weights=[0.0, 0.0, 1.481481, 0.0, 0.0], x_slack=[0.0, 0.0], y_slack=[0.0])]
