@@ -1,6 +1,0 @@
-serviceName,outDeg,inDeg,maxDeg,numberOfClasses
-customers,1,0,1,0
-api_gateway,1,0,1,0
-orders,1,0,1,0
-shipments,1,0,1,0
-message_broker,1,0,1,0
