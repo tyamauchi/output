@@ -1,0 +1,6 @@
+SC,value
+SC(orders,api_gateway),0.6666666666666667
+SC(shipments,api_gateway),0.6666666666666667
+SC(customers,message_broker),0.6666666666666667
+SC(customers,api_gateway),0.6666666666666667
+SC(message_broker,orders),0.8333333333333334

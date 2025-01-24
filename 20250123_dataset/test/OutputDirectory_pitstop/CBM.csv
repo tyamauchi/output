@@ -1,0 +1,14 @@
+serviceName,value
+webapp,N/A
+workshopmanagementapi,N/A
+logserver,N/A
+customermanagementapi,N/A
+invoiceservice,N/A
+mailserver,N/A
+rabbitmq,N/A
+sqlserver,N/A
+timeservice,N/A
+vehiclemanagementapi,N/A
+workshopmanagementeventhandler,N/A
+auditlogservice,N/A
+notificationservice,N/A

@@ -1,0 +1,10 @@
+SC,value
+SC(product-command-side,discovery),0.875
+SC(product-command-side,rabbitmq),0.875
+SC(product-query-side,discovery),0.875
+SC(config,product-query-side),0.75
+SC(discovery,gateway),0.75
+SC(config,product-command-side),0.75
+SC(config,gateway),0.75
+SC(product-query-side,rabbitmq),0.875
+SC(mongodb,product-command-side),0.75

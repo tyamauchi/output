@@ -1,0 +1,14 @@
+serviceName,outDeg,inDeg,maxDeg,numberOfClasses
+rabbitmq,1,2,3,0
+sqlserver,1,0,1,0
+mailserver,1,0,1,0
+logserver,1,0,1,0
+vehiclemanagementapi,1,0,1,0
+customermanagementapi,1,0,1,0
+workshopmanagementapi,1,0,1,0
+auditlogservice,1,0,1,0
+invoiceservice,1,0,1,0
+notificationservice,1,0,1,0
+timeservice,1,0,1,0
+"workshopmanagementeventhandler",1,0,1,0
+webapp,1,0,1,0

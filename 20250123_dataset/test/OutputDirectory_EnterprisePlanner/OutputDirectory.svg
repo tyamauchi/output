@@ -1,0 +1,66 @@
+<svg width="423px" height="155px"
+ viewBox="0.00 0.00 317.04 116.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform=" rotate(0) translate(4 112)">
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-112 313.04,-112 313.04,4 -4,4"/>
+<!-- api_gateway -->
+<g id="node1" class="node">
+<title>api_gateway</title>
+<ellipse fill="none" stroke="black" cx="209.24" cy="-90" rx="55.49" ry="18"/>
+<text text-anchor="middle" x="209.24" y="-86.3" font-family="Times,serif" font-size="14.00">api_gateway</text>
+</g>
+<!-- orders -->
+<g id="node2" class="node">
+<title>orders</title>
+<ellipse fill="none" stroke="black" cx="165.24" cy="-18" rx="32.49" ry="18"/>
+<text text-anchor="middle" x="165.24" y="-14.3" font-family="Times,serif" font-size="14.00">orders</text>
+</g>
+<!-- api_gateway&#45;&gt;orders -->
+<g id="edge1" class="edge">
+<title>api_gateway&#45;&gt;orders</title>
+<path fill="none" stroke="blue" d="M198.59,-72.05C193.27,-63.59 186.73,-53.19 180.86,-43.84"/>
+<polygon fill="blue" stroke="blue" points="183.78,-41.91 175.49,-35.31 177.85,-45.64 183.78,-41.91"/>
+</g>
+<!-- customers -->
+<g id="node3" class="node">
+<title>customers</title>
+<ellipse fill="none" stroke="black" cx="68.24" cy="-18" rx="46.59" ry="18"/>
+<text text-anchor="middle" x="68.24" y="-14.3" font-family="Times,serif" font-size="14.00">customers</text>
+</g>
+<!-- api_gateway&#45;&gt;customers -->
+<g id="edge2" class="edge">
+<title>api_gateway&#45;&gt;customers</title>
+<path fill="none" stroke="blue" d="M180.03,-74.5C158.33,-63.73 128.59,-48.96 105.23,-37.36"/>
+<polygon fill="blue" stroke="blue" points="106.5,-34.08 95.98,-32.77 103.38,-40.35 106.5,-34.08"/>
+</g>
+<!-- shipments -->
+<g id="node4" class="node">
+<title>shipments</title>
+<ellipse fill="none" stroke="black" cx="262.24" cy="-18" rx="46.59" ry="18"/>
+<text text-anchor="middle" x="262.24" y="-14.3" font-family="Times,serif" font-size="14.00">shipments</text>
+</g>
+<!-- api_gateway&#45;&gt;shipments -->
+<g id="edge3" class="edge">
+<title>api_gateway&#45;&gt;shipments</title>
+<path fill="none" stroke="blue" d="M221.8,-72.41C228.34,-63.78 236.45,-53.06 243.7,-43.5"/>
+<polygon fill="blue" stroke="blue" points="246.53,-45.56 249.77,-35.47 240.95,-41.33 246.53,-45.56"/>
+</g>
+<!-- message_broker -->
+<g id="node5" class="node">
+<title>message_broker</title>
+<ellipse fill="none" stroke="black" cx="68.24" cy="-90" rx="68.49" ry="18"/>
+<text text-anchor="middle" x="68.24" y="-86.3" font-family="Times,serif" font-size="14.00">message_broker</text>
+</g>
+<!-- message_broker&#45;&gt;orders -->
+<g id="edge4" class="edge">
+<title>message_broker&#45;&gt;orders</title>
+<path fill="none" stroke="blue" d="M90.74,-72.76C104.78,-62.64 122.94,-49.53 137.81,-38.79"/>
+<polygon fill="blue" stroke="blue" points="140.08,-41.48 146.14,-32.79 135.98,-35.8 140.08,-41.48"/>
+</g>
+<!-- message_broker&#45;&gt;customers -->
+<g id="edge5" class="edge">
+<title>message_broker&#45;&gt;customers</title>
+<path fill="none" stroke="blue" d="M68.24,-71.7C68.24,-63.98 68.24,-54.71 68.24,-46.11"/>
+<polygon fill="blue" stroke="blue" points="71.74,-46.1 68.24,-36.1 64.74,-46.1 71.74,-46.1"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,8 @@
+serviceName,outDeg,inDeg,maxDeg,numberOfClasses
+mongodb,1,0,1,0
+rabbitmq,1,0,1,0
+config,1,0,1,0
+discovery,1,0,1,0
+gateway,1,0,1,0
+product-command-side,1,0,1,0
+product-query-side,1,0,1,0
