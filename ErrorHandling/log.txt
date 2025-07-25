@@ -1,0 +1,15 @@
+(base) yamauchitakuya@yamauchitakuyanoMacBook-Pro ErrorHandling % uvicorn main:app --reload
+INFO:     Will watch for changes in these directories: ['/Users/yamauchitakuya/Softbank/Kaishu_2025/ErrorHandling']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [17033] using StatReload
+INFO:     Started server process [17035]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:51375 - "GET / HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51376 - "GET / HTTP/1.1" 200 
+
+
+--------------------------------------------
+(base) yamauchitakuya@yamauchitakuyanoMacBook-Pro ErrorHandling % curl http://127.0.0.1:8000/
+{"result":"エラー発生: func_cでエラー発生"}%                                                                                                            (base) yamauchitakuya@yamauchitakuyanoMacBook-Pro ErrorHandling % curl http://127.0.0.1:8000/
+{"result":"エラー発生: func_cでエラー発生"}%      
